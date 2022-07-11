@@ -111,6 +111,7 @@ let setik = JSON.parse(fs.readFileSync('./database/setik.json'));
 let vien = JSON.parse(fs.readFileSync('./database/vien.json'));
 let imagi = JSON.parse(fs.readFileSync('./database/imagi.json'))
 let videox = JSON.parse(fs.readFileSync('./database/video.json'))
+let apk = JSON.parse(fs.readFileSync('./database/apk.json'))
 
 //read database\\
 let tebaklagu = db.data.game.tebaklagu = []
