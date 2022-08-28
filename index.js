@@ -53,7 +53,7 @@ async function startKingmdWH() {
     const KingmdWH = NexusNwIncConnect({
         logger: pino({ level: 'silent' }),
         printQRInTerminal: true,
-        browser: ['Gojo Satoru\Nexus','Safari','1.0.0'],
+        browser: ['KING BOT\WHITE HACKERS','Safari','1.0.0'],
         auth: state
     })
 
@@ -80,7 +80,7 @@ async function startKingmdWH() {
         if (!KingmdWH.public && !mek.key.fromMe && chatUpdate.type === 'notify') return
         if (mek.key.id.startsWith('BAE5') && mek.key.id.length === 16) return
         m = smsg(KingmdWH, mek, store)
-        require("./Kingbotmd")(KingmdWH, m, chatUpdate, store)
+        require("./KINGBOTMD")(KingmdWH, m, chatUpdate, store)
         } catch (err) {
             console.log(err)
         }
@@ -93,19 +93,19 @@ async function startKingmdWH() {
        try {
        ppgc = await KingmdWH.profilePictureUrl(pea[0].id, 'image')
        } catch {
-       ppgc = 'https://shortlink.KingmdWHarridho.my.id/rg1oT'
+       ppgc = 'https://shortlink.GojoMdNxarridho.my.id/rg1oT'
        }
        let wm_fatih = { url : ppgc }
        if (pea[0].announce == true) {
-       KingmdWH.send5ButImg(pea[0].id, `「 Group Settings Changed 」\n\nThe Group Has Been Closed By Admin, Now Only Admin Can Send Messages !`, `© ꜱʟ ᴘʀᴏɢʀᴀᴍᴍᴇʀꜱ`, wm_fatih, [])
+       KingmdWH.send5ButImg(pea[0].id, `「 Group Settings Changed 」\n\nThe Group Has Been Closed By Admin, Now Only Admin Can Send Messages !`, `</> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴋɪɴɢ ʙᴏᴛ </>️ ▷`, wm_fatih, [])
        } else if(pea[0].announce == false) {
-       KingmdWH.send5ButImg(pea[0].id, `「 Group Settings Changed 」\n\nThe Group Has Been Opened By Admin, Now Participants Can Send Messages !`, `© ꜱʟ ᴘʀᴏɢʀᴀᴍᴍᴇʀꜱ `, wm_fatih, [])
+       KingmdWH.send5ButImg(pea[0].id, `「 Group Settings Changed 」\n\nThe Group Has Been Opened By Admin, Now Participants Can Send Messages !`, `</> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴋɪɴɢ ʙᴏᴛ </>️ ▷`, wm_fatih, [])
        } else if (pea[0].restrict == true) {
-       KingmdWH.send5ButImg(pea[0].id, `「 Group Settings Changed 」\n\nGroup Info Has Been Restricted, Now Only Admin Can Edit Group Info !`, `© ꜱʟ ᴘʀᴏɢʀᴀᴍᴍᴇʀꜱ`, wm_fatih, [])
+       KingmdWH.send5ButImg(pea[0].id, `「 Group Settings Changed 」\n\nGroup Info Has Been Restricted, Now Only Admin Can Edit Group Info !`, `</> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴋɪɴɢ ʙᴏᴛ </>️ ▷`, wm_fatih, [])
        } else if (pea[0].restrict == false) {
-       KingmdWH.send5ButImg(pea[0].id, `「 Group Settings Changed 」\n\nGroup Info Has Been Opened, Now Participants Can Edit Group Info !`, `© ꜱʟ ᴘʀᴏɢʀᴀᴍᴍᴇʀꜱ`, wm_fatih, [])
+       KingmdWH.send5ButImg(pea[0].id, `「 Group Settings Changed 」\n\nGroup Info Has Been Opened, Now Participants Can Edit Group Info !`, `</> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴋɪɴɢ ʙᴏᴛ </>️ ▷`, wm_fatih, [])
        } else {
-       KingmdWH.send5ButImg(pea[0].id, `「 Group Settings Changed 」\n\nGroup Subject Has Been Changed To *${pea[0].subject}*`, `© ꜱʟ ᴘʀᴏɢʀᴀᴍᴍᴇʀꜱ`, wm_fatih, [])
+       KingmdWH.send5ButImg(pea[0].id, `「 Group Settings Changed 」\n\nGroup Subject Has Been Changed To *${pea[0].subject}*`, `</> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴋɪɴɢ ʙᴏᴛ </>️ ▷`, wm_fatih, [])
      }
     })
 
@@ -138,16 +138,16 @@ Kon = await getBuffer(`https://hardianto.xyz/api/welcome3?profile=${encodeURICom
 Tol = await getBuffer(`https://hardianto.xyz/api/goodbye3?profile=${encodeURIComponent(ppuser)}&name=${encodeURIComponent(nama)}&bg=https://telegra.ph/file/8bbe8a7de5c351dfcb077.jpg&namegb=${encodeURIComponent(metadata.subject)}&member=${encodeURIComponent(memb)}`)
                 if (anu.action == 'add') {
                     KingmdWH.sendMessage(anu.id, { image: Kon, contextInfo: { mentionedJid: [num] }, caption: `
-🌿 Hi 😇 @${num.split("@")[0]},
-🌿 𝚆𝙴𝙻𝙲𝙾𝙼𝙴 𝚃𝙾 ${metadata.subject}
+⭐✑ Hi👋 @${num.split("@")[0]},
+⭐✑ Welcome To ${metadata.subject}
 
-🌿✑ Description: ${metadata.desc}
+⭐✑ Description: ${metadata.desc}
 
-🌿✑ සාදරෙන් පිලිගන්නව 🌿 මම 𝙲𝚈𝙱𝙴𝚁_𝙳𝙴𝚅𝙸𝙻 🌿`} )
+⭐✑ Welcome To Our Comfortable Happy😋, Sometimes Loud😜, Usually Messy🤥, Full Of Love🥰, HOME😌!!`} )
                 } else if (anu.action == 'remove') {
                     KingmdWH.sendMessage(anu.id, { image: Tol, contextInfo: { mentionedJid: [num] }, caption: `⭐✑ @${num.split("@")[0]} Left ${metadata.subject}
 
-❤️‍🩹 බායි බායි යාලු ❤️ අපිත් එක්ක මෙච්චර කල් රැදිල හිටියට ස්තූතියි 😇 ❤️‍🩹` })
+⭐✑ I'm Not Sure If It Was A Goodbye Charm, But It Was Fun While It Lasted 😌✨` })
                 }
             }
         } catch (err) {
