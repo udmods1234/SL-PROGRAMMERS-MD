@@ -12,18 +12,18 @@ global.APIKeys = {
 }
 
 //customize settings\\
-global.owner = ['94716388240']
-global.premium = ['94716388240']
-global.ownernomer = '94716388240'
-global.ownername = '𝚂𝙻 𝙿𝚁𝙾𝙶𝚁𝙰𝙼𝙼𝙴𝚁𝚂'
+global.owner = ['94704638406']
+global.premium = ['94704638406']
+global.ownernomer = '94704638406'
+global.ownername = ''
 global.botname = '𝚂𝙻 𝚆𝙰 𝙱𝙾𝚃'
-global.footer = '</> 𝙿𝙾𝚆𝙴𝚁𝙳 𝙱𝚈 𝚂𝙻 𝙿𝚁𝙾𝙶𝚁𝙰𝙼𝙼𝙴𝚁𝚂 </>'
-global.ig = 'https://github.com/cyberdev001/SL-PROGRAMMERS-MD'
+global.footer = '</> 𝙿𝙾𝚆𝙴𝚁𝙳 𝙱𝚈 𝚂𝙻 UD TECH </>'
+global.ig = 'wa.me/94704638406'
 global.region = 'Sri Lanka'
-global.sc = 'https://github.com/cyberdev001/SL-PROGRAMMERS-MD'
-global.myweb = 'https://youtube.com/channel/UChMPU0p6C_turIlKkH0Nvig'
-global.packname = '𝚂𝙻 𝚆𝙰 𝙱𝙾𝚃'
-global.author = '𝚂𝙻 𝙿𝚁𝙾𝙶𝚁𝙰𝙼𝙼𝙴𝚁𝚂'
+global.sc = 'https://sl-ud-mods.yolasite.com/'
+global.myweb = 'https://youtube.com/channel/UC4eIQOT9JdznytsprIUhE-w'
+global.packname = '𝚂𝙻 UD 𝙱𝙾𝚃'
+global.author = '𝚂𝙻 UD'
 global.sessionName = 'session'
 global.prefa = ['','!','.','🌿','🔥','🎮']
 global.sp = '⭔'
